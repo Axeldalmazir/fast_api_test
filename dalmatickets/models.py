@@ -11,7 +11,7 @@ from sqlalchemy.orm import (
     relationship,
 )
 
-from globoticket.frontmatter import get_frontmatter
+from dalmatickets.frontmatter import get_frontmatter
 
 Base: DeclarativeBase = declarative_base()
 

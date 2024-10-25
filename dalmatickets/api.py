@@ -11,10 +11,10 @@ from fastapi import Depends, FastAPI, HTTPException
 from sqlalchemy.orm import Session
 from starlette.staticfiles import StaticFiles
 
-from globoticket.crud import get_all_dbevents, get_dbevent
-from globoticket.database import SessionLocal
-from globoticket.models import DBEvent
-from globoticket.schemas import Event
+from dalmatickets.crud import get_all_dbevents, get_dbevent
+from dalmatickets.database import SessionLocal
+from dalmatickets.models import DBEvent
+from dalmatickets.schemas import Event
 
 app = FastAPI()
 

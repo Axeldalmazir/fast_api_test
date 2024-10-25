@@ -1,6 +1,6 @@
 import pytest
 
-from globoticket.frontmatter import InvalidFrontmatterError, parse_frontmatter
+from dalmatickets.frontmatter import InvalidFrontmatterError, parse_frontmatter
 
 
 def test_parse_frontmatter():

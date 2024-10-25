@@ -3,8 +3,8 @@ from unittest.mock import patch
 import pytest
 from fastapi import HTTPException
 
-from globoticket.api import get_event
-from globoticket.models import DBEvent
+from dalmatickets.api import get_event
+from dalmatickets.models import DBEvent
 
 
 @patch("globoticket.api.get_dbevent", return_value=DBEvent(product_code="Test"))

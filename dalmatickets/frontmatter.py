@@ -32,10 +32,7 @@ class InvalidFrontmatterError(Exception):
 
 
 FRONTMATTER_REGEX = re.compile(
-    # Please add a regular expression
-    # containing two named groups:
-    # one named "yaml" containing the YAML data (first part of the file)
-    # one named "content" containing the text content (second part of the file)
+  
     r"---\n(?P<yaml>.*?)---\n(?P<content>.*)",
     re.DOTALL,
 )

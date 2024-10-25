@@ -2,7 +2,7 @@ from pathlib import Path
 
 import pytest
 
-from globoticket.frontmatter import find_frontmatter_file
+from dalmatickets.frontmatter import find_frontmatter_file
 
 # The actual path where the frontmatter is located
 FM_PATH = Path(__file__).parent / "product_info"

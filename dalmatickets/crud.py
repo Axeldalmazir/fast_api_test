@@ -1,7 +1,7 @@
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from globoticket.models import DBEvent
+from dalmatickets.models import DBEvent
 
 
 def get_dbevent(id: int, db: Session) -> DBEvent | None:

@@ -13,8 +13,8 @@ import sqlalchemy
 from sqlalchemy.orm import Session, sessionmaker
 from starlette.testclient import TestClient
 
-from globoticket.api import app, get_session
-from globoticket.models import Base, DBCategory, DBEvent
+from dalmatickets.api import app, get_session
+from dalmatickets.models import Base, DBCategory, DBEvent
 
 test_db = sqlalchemy.create_engine(
     "sqlite+pysqlite:///:memory:",
